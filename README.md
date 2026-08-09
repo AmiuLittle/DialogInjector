@@ -1,6 +1,10 @@
 # Atlyss Dialog Injector
 A mod for injecting your own custom dialog into ATLYSS NPCs.
 
+## Warning
+Although it is not tested, it is likely that this mod will not play nice with any ATLYSS localization mods.
+I am working towards potential compatibility patches for Localyssation and also dialog injection localization.
+
 ## Basic Usage
 Most dialog injection can be handled by the `BasicDialogInjectionParams` class.
 <br/>
