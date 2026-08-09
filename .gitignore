@@ -1,0 +1,6 @@
+# Dotnet build directories
+bin/
+obj/
+
+# Private directories
+Directory.Build.props
