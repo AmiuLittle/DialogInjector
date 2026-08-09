@@ -6,6 +6,7 @@ using UnityEngine;
 namespace AmiuLittle.DialogInjector;
 
 [BepInPlugin(MyPluginInfo.PLUGIN_GUID, MyPluginInfo.PLUGIN_NAME, MyPluginInfo.PLUGIN_VERSION)]
+[BepInIncompatibility("org.sallys-workshop.localyssation")]
 public class DialogInjectorPlugin : BaseUnityPlugin
 {
     internal static new ManualLogSource Logger;
